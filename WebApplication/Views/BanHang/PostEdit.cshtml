@@ -1,0 +1,25 @@
+﻿@model WebApplication.Models.sanpham
+
+@{
+    ViewBag.Title = "Sửa sản phẩm";
+
+}
+
+<h2>Sửa sản phẩm</h2>
+
+<form action="/BanHang/PostEdit" method="post">
+
+            <label for="id">ID:</label>
+            <input readonly type="text" name="id" value="@Model.id" />
+            <div>
+                <label for="ten">Tên sản phẩm:</label>
+                <input type="text" name="ten" value="@Model.ten" />
+            </div>
+            <div>
+                <label for="ngaySX">Ngày sản xuất:</label>
+                <input type="text" name="ngaySX" value="@Model.ngaySX" />
+            </div>
+            <input type="submit" value="Lưu" />
+
+    
+</form>

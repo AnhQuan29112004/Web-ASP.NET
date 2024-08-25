@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WebApplication.Models.sanpham>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên sản phẩm</th>
+            <th>Ngay</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sanpham in Model)
+        {
+            <tr>
+                <td>@sanpham.id</td>
+                <td>@sanpham.ten</td>
+                <td>@sanpham.ngaySX</td>
+                <td>
+                    <a href="/BanHang/PostEdit/@sanpham.id">Edit</a>
+
+                </td>
+                <td>
+                    <a href="/BanHang/Delete/@sanpham.id">Delete</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

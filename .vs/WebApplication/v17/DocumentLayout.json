@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|d:\\webapplication\\webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\views\\banhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\banhang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\controllers\\banhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\banhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\views\\banhang\\postedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\banhang\\postedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\views\\banhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\banhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\views\\home\\demo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\home\\demo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\views\\banhang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\banhang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\views\\banhang\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\views\\banhang\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|D:\\WebApplication\\webapplication\\models\\dataclasses1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6655C7E-22E8-4F24-A362-E61B1A82C097}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\models\\dataclasses1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\BanHang\\Index.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Index.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\BanHang\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T02:37:45.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BanHangController.cs",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Controllers\\BanHangController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\BanHangController.cs",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Controllers\\BanHangController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\BanHangController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAwDYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:19:15.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "WebApplication\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:11:27.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAAAPcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T02:57:23.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostEdit.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\PostEdit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\BanHang\\PostEdit.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\PostEdit.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\BanHang\\PostEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T06:57:20.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\BanHang\\Edit.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\BanHang\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T02:49:45.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Demo.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\Home\\Demo.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Home\\Demo.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\Home\\Demo.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Home\\Demo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T05:57:45.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:29:02.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Add.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\BanHang\\Add.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Add.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\BanHang\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T05:48:55.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T05:52:20.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication\\Views\\BanHang\\Delete.cshtml",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Views\\BanHang\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication\\Views\\BanHang\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T03:37:00.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataClasses1.designer.cs",
+              "DocumentMoniker": "D:\\WebApplication\\WebApplication\\Models\\DataClasses1.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Models\\DataClasses1.designer.cs",
+              "ToolTip": "D:\\WebApplication\\WebApplication\\Models\\DataClasses1.designer.cs",
+              "RelativeToolTip": "WebApplication\\Models\\DataClasses1.designer.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAwwKwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:55:25.622Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
