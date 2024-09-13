@@ -66,6 +66,14 @@ namespace WebApplication.Models
 				return this.GetTable<sanpham>();
 			}
 		}
+		
+		public System.Data.Linq.Table<DanhMuc> DanhMucs
+		{
+			get
+			{
+				return this.GetTable<DanhMuc>();
+			}
+		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.sanpham")]
@@ -174,6 +182,87 @@ namespace WebApplication.Models
 			if ((this.PropertyChanged != null))
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.DanhMuc")]
+	public partial class DanhMuc
+	{
+		
+		private long _id;
+		
+		private string _TenDanhMuc;
+		
+		private string _MoTa;
+		
+		private string _IdDanhMucCha;
+		
+		public DanhMuc()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id", DbType="BigInt NOT NULL")]
+		public long id
+		{
+			get
+			{
+				return this._id;
+			}
+			set
+			{
+				if ((this._id != value))
+				{
+					this._id = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenDanhMuc", DbType="NVarChar(50)")]
+		public string TenDanhMuc
+		{
+			get
+			{
+				return this._TenDanhMuc;
+			}
+			set
+			{
+				if ((this._TenDanhMuc != value))
+				{
+					this._TenDanhMuc = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MoTa", DbType="NVarChar(50)")]
+		public string MoTa
+		{
+			get
+			{
+				return this._MoTa;
+			}
+			set
+			{
+				if ((this._MoTa != value))
+				{
+					this._MoTa = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IdDanhMucCha", DbType="NVarChar(50)")]
+		public string IdDanhMucCha
+		{
+			get
+			{
+				return this._IdDanhMucCha;
+			}
+			set
+			{
+				if ((this._IdDanhMucCha != value))
+				{
+					this._IdDanhMucCha = value;
+				}
 			}
 		}
 	}

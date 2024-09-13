@@ -1,0 +1,79 @@
+﻿
+
+@{
+    ViewBag.Title = "Danh sach";
+}
+<table class="table" id="danhMucTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Mo ta</th>
+            <th>ID Danh Muc</th>
+            <th>Ten Danh Muc cha</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+
+<script type="text/javascript">
+            $(document).ready(function () {
+                $.ajax({
+                    url: '@Url.Action("GetListDanhMuc", "DanhMuc")',
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function (response) {
+                    //    console.log(data); 
+
+                    //    var tableBody = $('#danhMucTable tbody');
+                    //    tableBody.empty();
+                    //        $.each(data, function (index, item) {
+                    //            var row = '<tr>' +
+                    //                '<td>' + item.id + '</td>' +
+                    //                '<td>' + item.TenDanhMuc + '</td>' +
+                    //                '<td>' + item.MoTa + '</td>' +
+                    //                '<td>' + item.IdDanhMucCha + '</td>' +
+                    //                '</tr>';
+                    //            tableBody.append(row);
+                    //        });
+                    //},
+                    //error: function () {
+                    //    alert('Error loading categories.');
+                        //}
+                        var categories = response.data;
+                        let categoriesMap = {};
+                        $.each(categories, function (index, item) {
+                            categoriesMap[item.id] = item;
+                            
+                        });
+                        // in ra database
+                        var tableBody = $('#danhMucTable tbody');
+                        tableBody.empty();
+                        $.each(categories, function (index, item) {
+                            let tenDanhMucCha = "khong co";
+                            let danhMucCha = {};
+                            if (item.IdDanhMucCha) {
+                                danhMucCha = categoriesMap[item.IdDanhMucCha];
+                                if (danhMucCha) {
+                                    tenDanhMucCha = danhMucCha.TenDanhMuc;
+                                }
+                            }
+                            console.log(tenDanhMucCha);
+                            var row = '<tr>' +
+                                '<td>' + item.id + '</td>' +
+                                '<td>' + item.TenDanhMuc + '</td>' +
+                                '<td>' + item.MoTa + '</td>' +
+                                '<td>' + item.IdDanhMucCha + '</td>' +
+                                '<td>' + tenDanhMucCha + '</td>' +
+                                '</tr>';
+                            tableBody.append(row);
+                        });
+                    },
+                    error: function () {
+                        alert('Error loading categories.');
+                    }
+                });
+            });
+    </script>
